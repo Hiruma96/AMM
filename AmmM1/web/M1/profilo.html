@@ -16,10 +16,29 @@
     
     <form action="servlet.java" method="get">
         <label for="corto">Nome Utente</label>
+        <input type="text" name="Nome" id="corto"/>
+        <br/>
         <label for="corto">Cognome Utente</label>
-        <input type="text" name="corto" id="corto"/>
+        <input type="text" name="Cognome" id="corto"/>
+        <br/>
+        
+        <label for="data">Data</label>
+        <input name="data" id="data" type="date"/>
+        <br/>
+        <label for="corto">URL img</label>
+        <input type="text" name="Img" id="corto"/>
+        <br/>
+        <label for="lungo">Presentazione</label>
+        <br/>
+        <textarea rows="4" cols="20" name="Presentazione" id="lungo"></textarea>
+        
+        <br/>
         <label for="pswd">Password</label>
         <input type="password" name="pswd" id="pswd"/>
+        <br/>
+        <label for=conferma>Conferma Password</label>
+        <input type="password" name="pswd" id="pswd"/>
+        <br/>
         <input type="submit" value="Invio" />
         <input type="reset" value="Reset" />
     </form>
