@@ -1,0 +1,132 @@
+body {background-color: #9BAAAE;}
+
+h1 {color: #333745; font-size: 50px;}
+h2 {color: #333745;font-size: 40px}
+h3 {color: #333745;font-size: 30px}
+
+div { font: 20px  "Times New Roman", Times, serif;}
+
+#title {color: #171CA6; font: 70px "Roboto", Regular, sans-serif; font-weight: bold; text-align: center;  }
+
+a:link{
+    font-size: 20px;
+    text-decoration: none;
+    color: #111111;
+}
+
+a:visited{
+    font-size: 20px;
+    color: cornflowerblue;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+a:active {
+ color: blue;
+}
+
+#user {
+    position: relative;
+    top: 5px;
+    font-size: 20px;
+}
+#corto {
+    position: relative;
+    top: 30px;
+    left: -85px;
+}
+
+#psw {
+    position: relative;
+    top: 60px;
+    left: -260px;
+    font-size: 20px;
+}
+
+#pswd {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+#pswd2 {
+    position: relative;
+    top: 80px;
+    left: -343px;
+}
+#invia{
+    position: relative;
+    top: 120px;
+    left: -500px;
+}
+#reset{
+    position: relative;
+    top: 120px;
+    left: -500px;
+}
+
+form {
+    position: relative;
+    top: 90px;
+    left: 300px;
+}
+
+#storto{
+    position: relative;
+    top: -300px;
+    left: 0px;
+}
+
+#title2 {color: #171CA6; font: 30px "Roboto", Regular, sans-serif; font-weight: bold; float: left; position: relative; top: 50px;}
+
+#lato{
+    width: 50%;
+    position: relative;
+    left: 0px;
+    float: left;
+    top: 40px;
+}
+
+#post{
+    float: right;
+    width: 50%;
+}
+
+.txt{
+    position: relative;
+    left: -50px;
+    top: 20px;
+    padding-bottom: 20px;
+}
+
+#imgpost{
+    position: relative;
+    max-height: 250px;
+    max-width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#link{
+    position: relative;
+    top: 15px;
+    left: -5px;
+    
+}
+
+
+.name{
+   font-size: 20px;
+   color:  #192843;
+   font-weight: bold;
+   position: relative;
+   top: 10px;
+   left: 10px;
+}
+
+.img{
+    float: left;
+    max-height: 50px;
+    max-width: 60px;
+}

@@ -1,0 +1,50 @@
+Tbl utentiRegistrati 
+    idUtentiRegistrati
+    nome
+    cognome 
+    password 
+    img
+    data 
+    email
+    frase
+    gruppiID
+    
+
+Tbl posts 
+    idPosts  
+    frase
+    img
+    gruppiId
+    utentiId
+    
+    
+ 
+Tbl gruppi 
+    idGruppi  
+    nome
+    img
+    postId
+    utentiId
+
+Tbl utentePerGruppo
+    idUtentePergruppo
+    gruppiId
+    utenteId
+
+Tbl postPerGruppo
+    idPostPerGruppo
+    postId
+    gruppiId
+
+Ogni utente registrato può fa parte di uno o più gruppi. (uno a molti)
+Ogni gruppo può contenere uno o più utenti registrati. (uno a molti)
+Ogni utente registrato può creare uno o più posts. (uno a molti)
+Ogni post può essere creato da un solo utente. (uno a uno)
+Ogni post può essere inserito in uno o più gruppi. (uno a molti)
+Ogni gruppo può contenere uno o più posts. (uno a molti)
+
+
+Creo la tabella UtentePerGruppo, per eliminare la relazione molti a molti tra utenti e gruppi.
+
+
+Creo la tabella PostPerGruppo, per eliminare la relazione molti a molti tra posts e gruppi.
